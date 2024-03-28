@@ -1,0 +1,35 @@
+/* Estilos para o botão */
+.ListItemLink {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+/* Efeito de sombra ao passar o mouse */
+.ListItemLink:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Efeito de escala ao clicar no botão */
+.ListItemLink:active {
+  transform: scale(0.95);
+}
+
+/* Estilos do ícone no botão */
+.ListItemLink .icon {
+  margin-right: 8px;
+}
+
+/* Estilo do ícone quando o botão é clicado */
+.ListItemLink:active .icon {
+  transform: scale(0.8);
+}
